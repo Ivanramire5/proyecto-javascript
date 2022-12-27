@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media (max-width: 1200px){
+}
+@media (min-width: 375px){
+}
+body{
+    background-color: #FCFFE7;
+}
+.titulo-tienda{
+    background-color: #EB455F;
+    text-align: center;
+    font-size: 3rem;
+    color:  #FCFFE7;
+    padding: 30px;
+    margin: 0px;
+}
+.subsubtitulo-tienda{
+    background-color: #2B3467;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #FCFFE7;
+    padding: 0px;
+    margin: 0px;
+}
+.descripcion-tienda{
+    text-align: center;
+    background-color: #2b3467ab;
+    font-size: 1rem;
+    color: #FCFFE7;
+}
+.subtitulo-tienda{
+    color: #EB455F;
+    text-align: center;
+    font-size: 2rem;
+}
+.metodo-pago{
+    text-align: center;
+    font-size: 2rem;
+    padding: 30px;
+    color: #2B3467;
+}
+.caja-pagos{
+    width: 100%;
+    height: 150px;
+    background-color: #2b3467ef;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nuestros-productos{
+    text-align: center;
+    font-size: 2.2rem;
+    padding: 30px;
+    color: #2B3467;
+}
+footer{
+    background-color: #eb455ead;
+}
+.titulo-footer{
+    color: #FCFFE7;
+    padding: 20px;
+    font-size: 2.1rem;
+    text-align: center;
+}
+.parrafo-footer{
+    color: #FCFFE7;
+    margin: 10px;
+    font-size: 1.2rem;
+}
+.subtitulo-footer{
+    color: #FCFFE7;
+    margin: 10px;
+    font-size: 2.1rem;
+}
+.lista-footer{
+    color: #FCFFE7;
+    margin: 5px;
+    font-size: 1rem;
+    padding: 20px;
+}
+.marca-footer{
+    color: #FCFFE7;
+    background-color: #2B3467;
+    padding: 20px;
+    font-size: 10px;
+}
