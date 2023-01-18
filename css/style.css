@@ -3,19 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 @media (max-width: 1200px){
 }
 @media (min-width: 375px){
 }
 body{
     background-color: #FCFFE7;
+    font-family: 'Raleway', sans-serif;
 }
 .titulo-tienda{
     background-color: #EB455F;
     text-align: center;
     font-size: 3rem;
     color:  #FCFFE7;
-    padding: 30px;
+    padding: 20px;
     margin: 0px;
 }
 .subsubtitulo-tienda{
