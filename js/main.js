@@ -76,7 +76,7 @@ while(seleccionDeProductos != "no"){
 
 const total = carritoDeCompras.reduce((acc, el) => acc + el.precio * el.unidades, 0);
 console.log(`el total a pagar por su compra es: "${total}"`);
-alert("El precio de tu compra tiene un valor de:" + " " + total)
+alert("El precio de tu compra tiene un valor de:" + " " + total + "pesos")
 //Precio de compra total//
 
 let precioDeCompra;
