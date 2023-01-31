@@ -3,311 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-@media (max-width: 1200px){
-    body{
-        background-color: #FCFFE7;
-        font-family: 'Raleway', sans-serif;
-    }
-    .titulo-tienda{
-        background-color: #EB455F;
-        text-align: center;
-        font-size: 3rem;
-        color:  #FCFFE7;
-        padding: 20px;
-        margin: 0px;
-    }
-    .logo-titulo{
-        background-color: #eb455e00;
-        width: 130px;
-        height: 130px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        padding-top: 20px;
-    }
-    .subsubtitulo-tienda{
-        background-color: #2B3467;
-        text-align: center;
-        font-size: 1.2rem;
-        color: #FCFFE7;
-        padding: 0px;
-        margin: 0px;
-    }
-    .h3-descriptivo{
-        color: #2B3467;
-        font-size: 1.4rem;
-        margin-top: 25px;
-        text-align: center;
-    }
-    .btn-primary{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        line-height: 1;
-        text-decoration: none;
-        color: #fcffe7;
-        font-size: 18px;
-        border-radius: 20px;
-        width: 200px;
-        height: 40px;
-        font-weight: bold;
-        border: 2px solid #555555;
-        transition: 0.3s;
-        box-shadow: 0px 6px 0px -2px rgba(89, 89, 89, 0.49);
-        background-color: #eb455f;
-    }
-    .btn-primary:hover {
-        box-shadow: 0 0 #fff;
-        transform: translateY(1px);
-    }
-    .descripcion-tienda{
-        text-align: center;
-        background-color: #2b3467ab;
-        font-size: 1rem;
-        color: #FCFFE7;
-    }
-    .subtitulo-tienda{
-        background-color: #e8e8e8;
-        padding: 15px;
-        color: #EB455F;
-        text-align: center;
-        font-size: 2rem;
-    }
-    .metodo-pago{
-        text-align: center;
-        font-size: 2rem;
-        padding: 30px;
-        color: #2B3467;
-    }
-    .caja-pagos{
-        width: 100%;
-        height: 300px;
-        background-color: #2b346767;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .nuestros-productos{
-        text-align: center;
-        font-size: 2.2rem;
-        padding: 30px;
-        color: #2B3467;
-    }
-    .card{
-        text-align: center;
-        background-color:#162997a9;
-        color: #FCFFE7;
-        display: flex;
-        padding: 10px;
-        flex-direction: column;
-        align-items: center;
-    }
-    .tarjetas-productos{
-        display: grid;
-        justify-items: center;
-        gap: 20px;
-        margin: 20px;
-        padding: 20px;
-        grid-template-columns: repeat(3, 2fr);
-        grid-template-rows: repeat(3, 450px);
-    }
-    .logo-caja{
-        display: grid;
-        justify-content: center;
-        gap: 20px;
-        padding: 14px;
-        margin-left: 20px;
-    }
-    .parrafo-tienda{
-        display: grid;
-        justify-content: left;
-        margin-left: 20px;
-        }
-    /*Footer*/
-    footer{
-        background-color: #eb455ead;
-    }
-    .titulo-footer{
-        color: #FCFFE7;
-        padding: 20px;
-        font-size: 2.1rem;
-        text-align: center;
-    }
-    .parrafo-footer{
-        color: #FCFFE7;
-        margin: 10px;
-        font-size: 1.2rem;
-    }
-    .subtitulo-footer{
-        color: #FCFFE7;
-        margin: 10px;
-        font-size: 2.1rem;
-    }
-    .lista-footer{
-        color: #FCFFE7;
-        margin: 5px;
-        font-size: 1rem;
-        padding: 20px;
-    }
-    .marca-footer{
-        color: #FCFFE7;
-        background-color: #2B3467;
-        padding: 20px;
-        font-size: 10px;
-    }
-}
-@media (min-width: 375px){
-    body{
-        background-color: #FCFFE7;
-        font-family: 'Raleway', sans-serif;
-    }
-    .titulo-tienda{
-        background-color: #EB455F;
-        text-align: center;
-        font-size: 3rem;
-        color:  #FCFFE7;
-        padding: 20px;
-        margin: 0px;
-    }
-    .logo-titulo{
-        background-color: #eb455e00;
-        width: 130px;
-        height: 130px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        padding-top: 20px;
-    }
-    .subsubtitulo-tienda{
-        background-color: #2B3467;
-        text-align: center;
-        font-size: 1.2rem;
-        color: #FCFFE7;
-        padding: 0px;
-        margin: 0px;
-    }
-    .h3-descriptivo{
-        color: #2B3467;
-        font-size: 1.4rem;
-        margin-top: 25px;
-        text-align: center;
-    }
-    .btn-primary{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        line-height: 1;
-        text-decoration: none;
-        color: #fcffe7;
-        font-size: 18px;
-        border-radius: 20px;
-        width: 200px;
-        height: 40px;
-        font-weight: bold;
-        border: 2px solid #555555;
-        transition: 0.3s;
-        box-shadow: 0px 6px 0px -2px rgba(89, 89, 89, 0.49);
-        background-color: #eb455f;
-    }
-    .btn-primary:hover {
-        box-shadow: 0 0 #fff;
-        transform: translateY(1px);
-    }
-    .descripcion-tienda{
-        text-align: center;
-        background-color: #2b3467ab;
-        font-size: 1rem;
-        color: #FCFFE7;
-    }
-    .subtitulo-tienda{
-        background-color: #e8e8e8;
-        padding: 15px;
-        color: #EB455F;
-        text-align: center;
-        font-size: 2rem;
-    }
-    .metodo-pago{
-        text-align: center;
-        font-size: 2rem;
-        padding: 30px;
-        color: #2B3467;
-    }
-    .caja-pagos{
-        width: 100%;
-        height: 300px;
-        background-color: #2b346767;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .nuestros-productos{
-        text-align: center;
-        font-size: 2.2rem;
-        padding: 30px;
-        color: #2B3467;
-    }
-    .card{
-        text-align: center;
-        background-color:#162997a9;
-        color: #FCFFE7;
-        display: flex;
-        padding: 10px;
-        flex-direction: column;
-        align-items: center;
-    }
-    .tarjetas-productos{
-        display: grid;
-        justify-items: center;
-        gap: 20px;
-        margin: 20px;
-        padding: 20px;
-        grid-template-columns: repeat(3, 2fr);
-        grid-template-rows: repeat(3, 450px);
-    }
-    .logo-caja{
-        display: grid;
-        justify-content: center;
-        gap: 20px;
-        padding: 14px;
-        margin-left: 20px;
-    }
-    .parrafo-tienda{
-        display: grid;
-        justify-content: left;
-        margin-left: 20px;
-        }
-    /*Footer*/
-    footer{
-        background-color: #eb455ead;
-    }
-    .titulo-footer{
-        color: #FCFFE7;
-        padding: 20px;
-        font-size: 2.1rem;
-        text-align: center;
-    }
-    .parrafo-footer{
-        color: #FCFFE7;
-        margin: 10px;
-        font-size: 1.2rem;
-    }
-    .subtitulo-footer{
-        color: #FCFFE7;
-        margin: 10px;
-        font-size: 2.1rem;
-    }
-    .lista-footer{
-        color: #FCFFE7;
-        margin: 5px;
-        font-size: 1rem;
-        padding: 20px;
-    }
-    .marca-footer{
-        color: #FCFFE7;
-        background-color: #2B3467;
-        padding: 20px;
-        font-size: 10px;
-    }
-}
 body{
     background-color: #FCFFE7;
     font-family: 'Raleway', sans-serif;
@@ -343,7 +38,76 @@ body{
     margin-top: 25px;
     text-align: center;
 }
-.btn-primary{
+.card img{
+    height: 250px;
+    width: 250px;
+}
+.shop-content{
+    display: grid;
+    justify-items: space-around;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 20px;
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: repeat(3, 600px);
+}
+.carrito-compra{
+    text-align: right;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 0px;
+}
+.shop-content .card{
+    width: 300px;
+    text-align: center;
+    background-color:#162997a9;
+    color: #FCFFE7;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+.modal-header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #2B3467;
+    color:#FCFFE7;
+    width: 100%;
+}
+.modal-container{
+    width: 80%;
+    margin: 0 10%;
+    max-height: 88vh;
+    color: #FCFFE7;
+    background-color: #2B3467;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    overflow: auto;
+    z-index: 9;
+    top: 12vh;
+    scrollbar-color: none;
+}
+.modal-container::-webkit-scrollbar{
+    display: none;
+}
+.modal-header-item{
+    justify-self: start;
+    color: #FCFFE7;
+    text-align: center;
+}
+.modal-header-button{
+    cursor: pointer;
+}
+.delete-product{
+    cursor: pointer;
+}
+.comprar{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -351,8 +115,7 @@ body{
     text-decoration: none;
     color: #fcffe7;
     font-size: 18px;
-    border-radius: 20px;
-    width: 200px;
+    width: 300px;
     height: 40px;
     font-weight: bold;
     border: 2px solid #555555;
@@ -360,9 +123,43 @@ body{
     box-shadow: 0px 6px 0px -2px rgba(89, 89, 89, 0.49);
     background-color: #eb455f;
 }
+.modal-header > .modal-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: 120px;
+}
+.modal-container > div > img{
+    height: 120px;
+    width: 120px;
+    margin: 40px;
+}
+.total-content{
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+.btn-light{
+    display: flex;
+    margin-left: auto;
+    background-color:#2B3467;
+    color: #e8e8e8;
+    padding: 10px;
+    size: 2rem;
+    margin-right: 10px;
+    font-size: 1.1rem;
+}
 .btn-primary:hover {
     box-shadow: 0 0 #fff;
     transform: translateY(1px);
+}
+.precio{
+    color: #eb455f;
+    font-size: 1.2rem;
+    text-align: center;
 }
 .descripcion-tienda{
     text-align: center;
@@ -396,30 +193,23 @@ body{
     padding: 30px;
     color: #2B3467;
 }
-.card{
-    text-align: center;
-    background-color:#162997a9;
-    color: #FCFFE7;
-    display: flex;
-    padding: 10px;
-    flex-direction: column;
-    align-items: center;
-}
-.tarjetas-productos{
-    display: grid;
-    justify-items: center;
-    gap: 20px;
-    margin: 20px;
-    padding: 20px;
-    grid-template-columns: repeat(3, 2fr);
-    grid-template-rows: repeat(3, 450px);
-}
+
 .logo-caja{
     display: grid;
     justify-content: center;
     gap: 20px;
     padding: 14px;
     margin-left: 20px;
+}
+.productos-catalogo{
+    display: grid;
+    justify-items: center;
+    gap: 10px;
+    padding: 15px;
+    color: #EB455F;
+    grid-template-columns: repeat(5, 2fr);
+    grid-template-rows: repeat(3, 10px);
+    background-color: #e8e8e8;
 }
 .parrafo-tienda{
     display: grid;
@@ -440,6 +230,16 @@ footer{
     color: #FCFFE7;
     margin: 10px;
     font-size: 1.2rem;
+}
+.lista-productos{
+    display: flex;
+    gap: 50px;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: #EB455F;
 }
 .subtitulo-footer{
     color: #FCFFE7;
