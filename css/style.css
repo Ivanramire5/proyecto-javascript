@@ -71,6 +71,16 @@ body{
     flex-direction: column;
     align-items: center;
 }
+.delete-product{
+    text-align: right;
+    color: #EB455F;
+}
+.total-content {
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
 .modal-header{
     display: flex;
     justify-content: space-around;
@@ -78,11 +88,17 @@ body{
     color:#FCFFE7;
     width: 100%;
 }
+.sumar{
+    cursor: pointer;
+}
+.restar{
+    cursor: pointer;
+}
 .modal-container{
     width: 80%;
-    margin: 0 10%;
-    max-height: 88vh;
-    color: #FCFFE7;
+    margin-left: 30px;
+    max-height: 80%;
+    color: #fff;
     background-color: #2B3467;
     display: flex;
     flex-direction: column;
@@ -93,6 +109,7 @@ body{
     top: 12vh;
     scrollbar-color: none;
 }
+
 .modal-container::-webkit-scrollbar{
     display: none;
 }
@@ -106,6 +123,7 @@ body{
 }
 .delete-product{
     cursor: pointer;
+    color: #EB455F;
 }
 .comprar{
     display: flex;
@@ -193,7 +211,28 @@ body{
     padding: 30px;
     color: #2B3467;
 }
-
+.cantidad-carrito{
+    background-color: #EB455F;
+    color: #FCFFE7;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 4px;
+    top: 37px;
+    right: 14px;
+    position: absolute;
+    display: none;
+}
+.navbar-carrito{
+    background-color:  #e8e8e8;
+    gap: 20px;
+}
+.carrito-compra{
+    margin-right: 15px;
+}
+.navbar-logo{
+    color: #EB455F;
+    margin-left: 10px;
+}
 .logo-caja{
     display: grid;
     justify-content: center;
@@ -232,6 +271,7 @@ footer{
     font-size: 1.2rem;
 }
 .lista-productos{
+    background-color: #e8e8e8;
     display: flex;
     gap: 50px;
     padding: 10px;

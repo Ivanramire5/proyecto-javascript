@@ -5,6 +5,7 @@ const productAsiatico = [
         desc: "Snacks salados sabor a sepia",
         precio: $700,
         img: "Imagenes de dulces asiaticos/snacks-asiaticos/arigato_cuttlefish.jpg",
+        cantidad: 1,
     },
     {
         id: 2,
@@ -12,6 +13,7 @@ const productAsiatico = [
         desc: "Ramen frito salado",
         precio: $700,
         img: "Imagenes de dulces asiaticos/snacks-asiaticos/babystar_pokemon_snackbabystar_pokemon_snack.jpg",
+        cantidad: 1,
     },
     {
         id: 3,
@@ -19,6 +21,7 @@ const productAsiatico = [
         desc: "Snacks de pulpo picantes",
         precio: $700,
         img: "Imagenes de dulces asiaticos/snacks-asiaticos/bento_squid_hot_spicy.jpg",
+        cantidad: 1,
     },
     {
         id: 4,
@@ -26,6 +29,7 @@ const productAsiatico = [
         desc: "Snacks sabor camaron",
         precio: $700,
         img: "Imagenes de dulces asiaticos/snacks-asiaticos/bonchi_kaisen_shrimp_rice_cracker.jpg",
+        cantidad: 1,
     },
     {
         id: 5,
@@ -33,6 +37,7 @@ const productAsiatico = [
         desc: "Palitos de maiz",
         precio: $650,
         img: "Imagenes de dulces asiaticos/snacks-asiaticos/Calbee-eel-corn-sticks.jpg",
+        cantidad: 1,
     },
     {
         id: 6,
@@ -40,6 +45,7 @@ const productAsiatico = [
         desc: "Papas sabor ajo",
         precio: $700,
         img: "Imagenes de dulces asiaticos/snacks-asiaticos/Calbee-Garlic-Butter-Potato-Chips.jpg",
+        cantidad: 1,
     },
     {
         id: 7,
@@ -47,6 +53,7 @@ const productAsiatico = [
         desc: "Chocolate amargo",
         precio: $700,
         img: "Imagenes de dulces asiaticos/chocolates-asiaticos/Baumkuchen-Dark-Chocolate.jpg",
+        cantidad: 1,
     },
     {
         id: 8,
@@ -54,6 +61,7 @@ const productAsiatico = [
         desc: "Papas fritas bañadas en chocolate",
         precio: $650,
         img: "Imagenes de dulces asiaticos/chocolates-asiaticos/bourbon_jaga_choco.jpg",
+        cantidad: 1,
     },
     {
         id: 9,
@@ -61,6 +69,7 @@ const productAsiatico = [
         desc: "Pretzels bañados en chocolate",
         precio: $650,
         img:"Imagenes de dulces asiaticos/chocolates-asiaticos/bourbon_pretzels.jpg",
+        cantidad: 1,
     },
     {
         id: 10,
@@ -68,6 +77,7 @@ const productAsiatico = [
         desc: "Trufas de chocolate",
         precio: $700,
         img: "Imagenes de dulces asiaticos/chocolates-asiaticos/bourbon_truffles_summer.jpg",
+        cantidad: 1,
     },
     {
         id: 11,
@@ -75,6 +85,7 @@ const productAsiatico = [
         desc: "Chocolate con coco",
         precio: $750,
         img: "Imagenes de dulces asiaticos/chocolates-asiaticos/codbury_pandan.jpg",
+        cantidad: 1,
     },
     {
         id: 12,
@@ -82,6 +93,7 @@ const productAsiatico = [
         desc: "Lapices de chocolate",
         precio: $600,
         img: "Imagenes de dulces asiaticos/chocolates-asiaticos/fujiya_pencil.jpg",
+        cantidad: 1,
     },
     {
         id: 13,
@@ -89,6 +101,7 @@ const productAsiatico = [
         desc: "Jugo de durazno y melón",
         precio: $550,
         img: "Imagenes de dulces asiaticos/bebidas-asiaticas/Bong-Bong-peach.jpg",
+        cantidad: 1,
     },
     {
         id: 14,
@@ -96,6 +109,7 @@ const productAsiatico = [
         desc: "Café helado",
         precio: $600,
         img: "Imagenes de dulces asiaticos/bebidas-asiaticas/boss_rainbow.jpg",
+        cantidad: 1,
     },
     {
         id: 15,
@@ -103,6 +117,7 @@ const productAsiatico = [
         desc: "Espresso helado",
         precio: $600,
         img: "Imagenes de dulces asiaticos/bebidas-asiaticas/boss_rainbow.jpg",
+        cantidad: 1,
     },
     {
         id: 16,
@@ -110,6 +125,7 @@ const productAsiatico = [
         desc: "Americano helado de BTS",
         precio: $600,
         img: "Imagenes de dulces asiaticos/bebidas-asiaticas/bts_americano.jpg",
+        cantidad: 1,
     },
     {
         id: 17,
@@ -117,6 +133,7 @@ const productAsiatico = [
         desc: "Gaseosa sabor uva",
         precio: $550,
         img: "Imagenes de dulces asiaticos/bebidas-asiaticas/chupa-chups-sparkling-grape.jpg",
+        cantidad: 1,
     },
     {
         id: 18,
@@ -124,6 +141,7 @@ const productAsiatico = [
         desc: "Gaseosa sabor naranja",
         precio: $550,
         img: "Imagenes de dulces asiaticos/bebidas-asiaticas/chupa_chupa_orange.jpg",
+        cantidad: 1,
     },
     {
         id: 19,
@@ -131,6 +149,7 @@ const productAsiatico = [
         desc: "Gomitas sabor a durazno",
         precio: $550,
         img: "Imagenes de dulces asiaticos/dulces-asiaticos/bourbon_fettuccine_peach.jpg",
+        cantidad: 1,
     },
     {
         id: 20,
@@ -138,13 +157,15 @@ const productAsiatico = [
         desc: "Caramelos de frutilla con vitamina C",
         precio: $600,
         img: "Imagenes de dulces asiaticos/dulces-asiaticos/crown_mychew_strawberry.jpg",
+        cantidad: 1,
     },
     {
         id: 21,
         nombre: "Fruit jelly",
         desc: "Bombones de fruta",
         precio: $680,
-        img: "Imagenes de dulces asiaticos/dulces-asiaticos/cw_fruit_jelly.jpg"
+        img: "Imagenes de dulces asiaticos/dulces-asiaticos/cw_fruit_jelly.jpg",
+        cantidad: 1,
     },
     {
         id: 22,
@@ -152,6 +173,7 @@ const productAsiatico = [
         desc: ">Malvaviscos sabor a frutilla con relleno de frutilla",
         precio: $650,
         img: "Imagenes de dulces asiaticos/dulces-asiaticos/eiwa_marshmallow_strawberry.jpg",
+        cantidad: 1,
     },
     {
         id: 23,
@@ -159,6 +181,7 @@ const productAsiatico = [
         desc: "Malvaviscos de vainilla",
         precio: $650,
         img: "Imagenes de dulces asiaticos/dulces-asiaticos/eiwa_marshmallow_white.jpg",
+        cantidad: 1,
     },
     {
         id: 24,
@@ -166,6 +189,7 @@ const productAsiatico = [
         desc: "Caramelos de leche",
         precio: $650,
         img: "Imagenes de dulces asiaticos/dulces-asiaticos/Fujiya_Milky-Candy.jpg",
+        cantidad: 1,
     },
     {
         id: 25,
@@ -173,6 +197,7 @@ const productAsiatico = [
         desc: "Ramen de mariscos",
         precio: $1300,
         img: "Imagenes de dulces asiaticos/ramen/acecook_mazesoba_tonkotsu.jpg",
+        cantidad: 1,
     },
     {
         id: 26,
@@ -180,6 +205,7 @@ const productAsiatico = [
         desc: "Ramen picante",
         precio: $1300,
         img: "Imagenes de dulces asiaticos/ramen/acecook_tantan_noodle.jpg",
+        cantidad: 1,
     },
     {
         id: 27,
@@ -187,6 +213,7 @@ const productAsiatico = [
         desc: "Ramen de pollo al curri",
         precio: $1300,
         img: "Imagenes de dulces asiaticos/ramen/donbei_udon_light_curry.jpg",
+        cantidad: 1,
     },
     {
         id: 28,
@@ -194,6 +221,7 @@ const productAsiatico = [
         desc: "Ramen de verduras",
         precio: $1300,
         img: "Imagenes de dulces asiaticos/ramen/ichira_instant_cup.jpg",
+        cantidad: 1,
     },
     {
         id: 29,
@@ -201,6 +229,7 @@ const productAsiatico = [
         desc: "Sopa crema de ostras",
         precio: $1300,
         img: "Imagenes de dulces asiaticos/ramen/knorr_pasta_clam_chowder.jpg",
+        cantidad: 1,
     },
     {
         id: 30,
@@ -208,5 +237,6 @@ const productAsiatico = [
         desc: "Sopa miso",
         precio: $1300,
         img: "Imagenes de dulces asiaticos/ramen/menarku_miso.jpg",
+        cantidad: 1,
     },
 ]
