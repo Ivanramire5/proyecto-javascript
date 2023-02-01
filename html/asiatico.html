@@ -30,11 +30,24 @@
       </div>
     </nav>
     <h2 id="subtitulo-tienda">NUESTROS PRODUCTOS</h2>
-    <h3 class="carrito-compra" id="carritoCompra">🛒</h3>
+    <div class="navbar-carrito">
+      <nav class="navbar">
+        <h2 class="navbar-logo">Tienda</h2>
+        <h3 class="carrito-compra" id="carritoCompra">🛒<span id="cantidadCarrito" class="cantidad-carrito"></span></h3>
+      </nav>
+    </div>
+    <li class="lista-productos">
+      <ul>Golosinas</ul>
+      <ul>Snacks</ul>
+      <ul>Gaseosas</ul>
+      <ul>Chocolates</ul>
+      <ul>Oreos</ul>
+    </li>
     <div id="shopContent" class="shop-content"></div>
-      <div id="modal-container" class="modal-container"></div>
-    <script src="../carrito/carrito.js"></script>
-    <script src="../Productos/asiatico.js"></script>
+    <div id="modal-container" class="modal-container"></div>
+      <script src="../Catalogo/tarjetasAsiaticas.js"></script>
+      <script src="../carrito/carrito.js"></script>
+    <script src="../js/main.js"></script>
     <script src="../js/bootstrap.bundle.min.js"></script>
     <footer>
       <img src="../Logos/LogoMakr-7Efhpt.png" class="logo-titulo">

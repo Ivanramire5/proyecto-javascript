@@ -1,6 +1,6 @@
 const productAsiatico = [
     {
-        id: 1,
+        id: 10,
         nombre: "Arigato cuttlefish",
         desc: "Snacks salados sabor a sepia",
         precio: $700,
