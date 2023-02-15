@@ -52,9 +52,12 @@ const pintarCarrito = () => {
     })
 });
     const total = carrito.reduce((acc, el) => acc + el.precio * el.cantidad, 0);
+    const ivaPorcentaje = 0.21;
+    const iva = total * ivaPorcentaje;
+    const totalConIva = total + iva;
     const compraTotal = document.createElement("div");
     compraTotal.className = "total-content";
-    compraTotal.innerHTML = `total a pagar: ${total} $`;
+    compraTotal.innerHTML = `total a pagar: ${iva > 0 ? totalConIva : total} $`;
     modalContainer.append(compraTotal);
 
     const compraFinal = document.createElement("button");
