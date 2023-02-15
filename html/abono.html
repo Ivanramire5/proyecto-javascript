@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Inpo.CO</title>
+</head>
+<body>
+    <h1 class="titulo-tienda">Impo. Snacks/おやつ</h1>
+    <h2 class="subsubtitulo-tienda">Datos para terminar con tu compra</h2>
+    <h3 class="titulo-formulario">INGRESA TUS DATOS PERSONALES</h3>
+    <ol>
+        <div class="datos-formulario">
+            <li class="nombre-tarjeta"><label for="names"> Nombres</label></li>
+            <li class="nombre-tarjeta"><input id="names" name="names" type="text" required></li>
+            <li class="nombre-tarjeta"><label for="apellidos"> Apellidos </label></li>
+            <li class="nombre-tarjeta"><input id="apellidos" name="apellidos" type="text" required></li>
+            <li class="nombre-tarjeta"><label for="telefono"> Telefono de contacto</label></li>
+            <li class="nombre-tarjeta"><input id="telefono" name="telefono" type="text" required></li>
+            <li class="nombre-tarjeta"><label for="edad"> Edad </label></li>
+            <li class="nombre-tarjeta"><input id="edad" name="edad" type="text" required></li>
+        </div>
+    </ol>
+    <h3 class="titulo-formulario">Ingresa una tarjeta</h3>
+    <div class="tarjeta">
+        <ul>
+            <h5>Numero de tarjeta</h5>
+            <li class="datos-tarjeta"><input id="text" name="text" type="text" required></li>
+            <h5>Nombres y apellidos del titular</h5>
+            <li class="datos-tarjeta"><input id="text" name="text" type="text" required></li>
+            <h5>Fecha de vencimiento</h5>
+            <li class="datos-tarjeta"><input id="text" name="text" type="text" required></li>
+            <h5>Codigo de seguridad</h5>
+            <li class="datos-tarjeta"><input id="text" name="text" type="text" required></li>
+            <h5>DNI del titular</h5>
+            <li class="datos-tarjeta"><input id="text" name="text" type="text" required></li>
+        </ul>
+    </div>
+    <div class=finalizar-compra>
+        <input type="submit" class="ok">
+    </div>
+
+    <a href="#" class="subir-datos">
+        <i class="fa-solid fa-caret-up"></i>
+    </a>
+    <footer>
+        <img src="../Logos/LogoMakr-7Efhpt.png" class="logo-titulo">
+        <h2 class="titulo-footer">QUIENES SOMOS</h3>
+        <p class="parrafo-footer">Somos Impo.Co una tienda dedidaca a traer lo mejor del mundo hasta la puerta de tu casa.</p>
+        <h3 class="subtitulo-footer">Nuestros productos</h3>
+        <ul class="lista-footer">
+            <li>Chocolates</li>
+            <li>Golosinas</li>
+            <li>Bebidas</li>
+            <li>Ramen y sopas</li>
+            <li>Snacks</li>
+        </ul>
+        <h2 class="titulo-footer">Contactános</h2>
+        <ul class="lista-footer">
+            <li>WhatsApp</li>
+            <li>1186431606</li>
+            <li>Impo.Co_358@gmail.com</li>
+        </ul>
+        <h5 class="marca-footer">Copyright Impo.Co - 2023. Todos los derechos reservados</h5>
+    </footer>
+    <script src="../Catalogo/tarjetasAsiaticas.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../carrito/carrito.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../formulario/form.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+</html>

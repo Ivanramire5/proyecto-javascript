@@ -4,8 +4,8 @@ const modalContainer = document.getElementById("modal-container");
 const cantidadCarrito = document.getElementById("cantidadCarrito");
 let carrito = JSON.parse(localStorage.getItem("compra final")) || [];
 
-const getProducts = async () => {
-    const response = await fetch("../js/tarjetasAmericanas.json");
+const getProducts2 = async () => {
+    const response = await fetch("../js/tarjetasAsiaticas.json")
     const data = await response.json();
     data.forEach((product) => {
         let content = document.createElement("div");
@@ -49,15 +49,12 @@ const getProducts = async () => {
             }
             });
         });
-};
-getProducts();
+}
+getProducts2();
+
 
 const saveLocal = () =>{
     localStorage.setItem("compra final", JSON.stringify(carrito));
 };
-
-
-
-
 
 

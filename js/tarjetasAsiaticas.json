@@ -1,0 +1,242 @@
+[
+    {
+        "id": 1, 
+        "nombre": "Arigato cuttlefish",
+        "desc": "Snacks salados sabor a sepia",
+        "precio": 700,
+        "img":"../Imagenes de dulces asiaticos/snacks-asiaticos/arigato_cuttlefish.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 2, 
+        "nombre": "Babystar pokemon",
+        "desc": "Ramen frito salado", 
+        "precio": 700, 
+        "img": "../Imagenes de dulces asiaticos/snacks-asiaticos/babystar_pokemon_snackbabystar_pokemon_snack.jpg", 
+        "cantidad": 1
+    },
+    {
+        "id": 3,
+        "nombre": "Bento hot squid", 
+        "desc": "Snacks de pulpo picantes", 
+        "precio": 700, 
+        "img": "../Imagenes de dulces asiaticos/snacks-asiaticos/bento_squid_hot_spicy.jpg", 
+        "cantidad": 1
+    },
+    {
+        "id": 4,
+        "nombre": "Bonchi kaiser", 
+        "desc": "Snacks sabor camaron", 
+        "precio": 700, 
+        "img": "../Imagenes de dulces asiaticos/snacks-asiaticos/bonchi_kaisen_shrimp_rice_cracker.jpg", 
+        "cantidad": 1
+    },
+    {
+        "id": 5, 
+        "nombre": "Calbee eel corn", 
+        "desc": "Palitos de maiz", 
+        "precio": 650, 
+        "img": "../Imagenes de dulces asiaticos/snacks-asiaticos/Calbee-eel-corn-sticks.jpg", 
+        "cantidad": 1
+    },
+    {
+        "id": 6, 
+        "nombre": "Calbee garlic", 
+        "desc": "Papas sabor ajo", 
+        "precio": 700,
+        "img": "../Imagenes de dulces asiaticos/snacks-asiaticos/Calbee-Garlic-Butter-Potato-Chips.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 7, 
+        "nombre": "Baumkuchen chocolate", 
+        "desc": "Chocolate amargo", 
+        "precio": 700, 
+        "img": "../Imagenes de dulces asiaticos/chocolates-asiaticos/Baumkuchen-Dark-Chocolate.jpg", 
+        "cantidad": 1
+    },
+    {
+        "id": 8, 
+        "nombre": "Bourbon choco", 
+        "desc": "Papas fritas bañadas en chocolate", 
+        "precio": 650, 
+        "img": "../Imagenes de dulces asiaticos/chocolates-asiaticos/bourbon_jaga_choco.jpg", 
+        "cantidad": 1
+    },
+    {
+        "id": 9, 
+        "nombre": "Bourbon pretzels", 
+        "desc": "Pretzels bañados en chocolate", 
+        "precio": 650, 
+        "img":"../Imagenes de dulces asiaticos/chocolates-asiaticos/bourbon_pretzels.jpg", 
+        "cantidad": 1
+    },
+    {    
+        "id": 10, 
+        "nombre": "Bourbon truffles", 
+        "desc": "Trufas de chocolate", 
+        "precio": 700, 
+        "img": "../Imagenes de dulces asiaticos/chocolates-asiaticos/bourbon_truffles_summer.jpg", 
+        "cantidad": 1
+    },
+    {
+        "id": 11, 
+        "nombre": "Cardbury pandan", 
+        "desc": "Chocolate con coco", 
+        "precio": 750, 
+        "img": "../Imagenes de dulces asiaticos/chocolates-asiaticos/codbury_pandan.jpg", 
+        "cantidad": 1
+    },
+    {    
+        "id": 12, 
+        "nombre": "Fujiya pencil", 
+        "desc": "Lapices de chocolate", 
+        "precio": 600, 
+        "img": "../Imagenes de dulces asiaticos/chocolates-asiaticos/fujiya_pencil.jpg", 
+        "cantidad": 1
+    },
+    {
+        "id": 13, 
+        "nombre": "Bong bong peach", 
+        "desc": "Jugo de durazno y melón", 
+        "precio": 550, 
+        "img": "../Imagenes de dulces asiaticos/bebidas-asiaticas/Bong-Bong-peach.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 14, 
+        "nombre": "Boss luxuary", 
+        "desc": "Café helado", 
+        "precio": 600, 
+        "img": "../Imagenes de dulces asiaticos/bebidas-asiaticas/boss_rainbow.jpg", 
+        "cantidad": 1
+    },
+    {
+        "id": 15, 
+        "nombre": "Boss rainbow", 
+        "desc": "Espresso helado", 
+        "precio": 600, 
+        "img": "../Imagenes de dulces asiaticos/bebidas-asiaticas/boss_rainbow.jpg", 
+        "cantidad": 1
+    },
+    {
+        "id": 16, 
+        "nombre": "BTS americano", 
+        "desc": "Americano helado de BTS", 
+        "precio": 600, 
+        "img": "../Imagenes de dulces asiaticos/bebidas-asiaticas/bts_americano.jpg", 
+        "cantidad": 1
+    },
+    {
+        "id": 17, 
+        "nombre": "Chupa chups grape", 
+        "desc": "Gaseosa sabor uva", 
+        "precio": 550, 
+        "img": "../Imagenes de dulces asiaticos/bebidas-asiaticas/chupa-chups-sparkling-grape.jpg", 
+        "cantidad": 1
+    },
+    {
+        "id": 18, 
+        "nombre": "Chupa chups orange", 
+        "desc": "Gaseosa sabor naranja", 
+        "precio": 550, 
+        "img": "../Imagenes de dulces asiaticos/bebidas-asiaticas/chupa_chupa_orange.jpg", 
+        "cantidad": 1
+    },
+    {
+        "id": 19, 
+        "nombre": "Bourbon peach", 
+        "desc": "Gomitas sabor a durazno", 
+        "precio": 550, 
+        "img": "../Imagenes de dulces asiaticos/dulces-asiaticos/bourbon_fettuccine_peach.jpg", 
+        "cantidad": 1
+    },
+    {
+        "id": 20, 
+        "nombre": "Crown strawberry", 
+        "desc": "Caramelos de frutilla con vitamina C", 
+        "precio": 600, 
+        "img": "../Imagenes de dulces asiaticos/dulces-asiaticos/crown_mychew_strawberry.jpg", 
+        "cantidad": 1
+    },
+    {
+        "id": 21, 
+        "nombre": "Fruit jelly", 
+        "desc": "Bombones de fruta", 
+        "precio": 680, 
+        "img": "../Imagenes de dulces asiaticos/dulces-asiaticos/cw_fruit_jelly.jpg", 
+        "cantidad": 1
+    },
+    {
+        "id": 22, 
+        "nombre": "Eiwa strawberry", 
+        "desc": "Malvaviscos sabor a frutilla con relleno de frutilla", 
+        "precio": 650, 
+        "img": "../Imagenes de dulces asiaticos/dulces-asiaticos/eiwa_marshmallow_strawberry.jpg", 
+        "cantidad": 1
+    },
+    {
+        "id": 23, 
+        "nombre": "Marshmallow white", 
+        "desc": "Malvaviscos de vainilla", 
+        "precio": 650, 
+        "img": "../Imagenes de dulces asiaticos/dulces-asiaticos/eiwa_marshmallow_white.jpg", 
+        "cantidad": 1
+    },
+    {
+        "id": 24, 
+        "nombre": "Fujiya milky candy", 
+        "desc": "Caramelos de leche", 
+        "precio": 650, 
+        "img": "../Imagenes de dulces asiaticos/dulces-asiaticos/Fujiya_Milky-Candy.jpg", 
+        "cantidad": 1
+    },
+    {
+        "id": 25, 
+        "nombre": "Ramen tonkotsu", 
+        "desc": "Ramen de mariscos", 
+        "precio": 1300, 
+        "img": "../Imagenes de dulces asiaticos/ramen/acecook_mazesoba_tonkotsu.jpg", 
+        "cantidad": 1
+    },
+    {
+        "id": 26, 
+        "nombre": "Tantan noodle", 
+        "desc": "Ramen picante", 
+        "precio": 1300, 
+        "img": "../Imagenes de dulces asiaticos/ramen/acecook_tantan_noodle.jpg", 
+        "cantidad": 1
+    },
+    {
+        "id": 27, 
+        "nombre": "Donbei udon", 
+        "desc": "Ramen de pollo al curri", 
+        "precio": 1300, 
+        "img": "../Imagenes de dulces asiaticos/ramen/donbei_udon_light_curry.jpg", 
+        "cantidad": 1
+    },
+    {
+        "id": 28, 
+        "nombre": "Ichira cup", 
+        "desc": "Ramen de verduras", 
+        "precio": 1300, 
+        "img": "../Imagenes de dulces asiaticos/ramen/ichira_instant_cup.jpg", 
+        "cantidad": 1
+    },
+    {
+        "id": 29, 
+        "nombre": "Knorr clam", 
+        "desc": "Sopa crema de ostras", 
+        "precio": 1300, 
+        "img": "../Imagenes de dulces asiaticos/ramen/knorr_pasta_clam_chowder.jpg", 
+        "cantidad": 1
+    },
+    {
+        "id": 30, 
+        "nombre": "Menarku miso", 
+        "desc": "Sopa miso", 
+        "precio": 1300, 
+        "img": "../Imagenes de dulces asiaticos/ramen/menarku_miso.jpg", 
+        "cantidad": 1
+    }
+]
